@@ -29,7 +29,6 @@ Where:
 - 🧮 Performs matrix operations for regression
 - 📈 Predicts house prices using trained weights
 - 💡 Calculates **MAPE (Mean Absolute Percentage Error)**
-- 💾 Saves predictions to `predicted_prices.csv`
 
 ## 📄 Required Files
 
