@@ -1,7 +1,7 @@
 import numpy as np
 np.set_printoptions(suppress=True)
-A = np.loadtxt('d:/programs/PYTHON/Housing.csv', delimiter=',')
-Y = (np.loadtxt('d:/programs/PYTHON/price.csv',delimiter=','))
+A = np.loadtxt('Housing.csv', delimiter=',')
+Y = (np.loadtxt('price.csv',delimiter=','))
 B = (np.linalg.inv((A.T@A))@(A.T@Y))
 sum=0
 diff =Y-(A@B)
