@@ -33,8 +33,8 @@ Where:
 
 ## 📄 Required Files
 
-- `Housing.csv` – Feature dataset (without headers)
-- `price.csv` – Target dataset (without headers)
+- `Housing.csv` – Feature dataset 
+- `price.csv` – Target dataset
 
 > ✅ The script automatically skips the first row assuming it's a header.
 
